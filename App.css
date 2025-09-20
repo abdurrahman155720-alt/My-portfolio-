@@ -74,3 +74,31 @@ h2 {
 }
 
 .contact a {
+  color: #22d3ee;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #64748b;
+  font-size: 0.98rem;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem 0.2rem;
+  }
+  .skills, .projects, .contact {
+    padding: 1rem 0.4rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+}
